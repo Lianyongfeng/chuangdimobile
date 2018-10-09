@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta name="wap-font-scale" content="no">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="../css/swiper-4.3.2.min.css">
+    <link rel="stylesheet" href="../css/content.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=bK5wYNrEhXvsg6VEeS0D9YDC9fdLwtXi"></script>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+    <title>content</title>
+</head>
+<body>
+<div class="header">
+    <div class="search"></div>
+    <div class="logo">
+        <a href="../index.html"><img src="../img/logo.jpg" alt=""></a>
+    </div>
+    <div class="menu"></div>
+</div>
+<div class="search-wrapper">
+    <div class="search-header">
+        <div class="search-left-wrapper">
+            <img src="../img/search.png" alt="">
+            <input type="text">
+        </div>
+        <div class="search-fork"></div>
+    </div>
+</div>
+<div class="menu-wrapper">
+    <div class="menu-header">
+        <div class="menu-search"></div>
+        <div class="logo">
+            <a href="../index.html"><img src="../img/logo.jpg" alt=""></a>
+        </div>
+        <div class="menu-fork"></div>
+    </div>
+    <div class="menu-content">
+        <dl class="submenu">
+            <dt class="submenu-first">
+                <a href="../index.html"><img src="../img/spot.png" alt="" class="spot"></a>
+                <a href="../index.html">HOME</a>
+            </dt>
+            <dt class="submenu-first">
+                <a href="./about.html"><img src="../img/spot.png" alt="" class="spot"></a>
+                <a href="./about.html">ABOUT US</a>
+            </dt>
+            <dt class="submenu-first">
+                <a href="###"><img src="../img/spot.png" alt="" class="spot"></a>
+                <a href="###">PRODUCTS</a>
+                <img src="../img/submenu-right.png" alt="" class="submenu-arrow">
+            </dt>
+            <dd class="submenu-two">
+                <a href="./products.html" class="submenu-two-a">Products</a>
+            </dd>
+            <dt class="submenu-first">
+                <a href="###"><img src="../img/spot.png" alt="" class="spot"></a>
+                <a href="###">CASES&PARES</a>
+                <img src="../img/submenu-right.png" alt="" class="submenu-arrow">
+            </dt>
+            <dd class="submenu-two">
+                <a href="./cases.html" class="submenu-two-a">Cases</a><br>
+                <a href="./spares.html" class="submenu-two-a">Qualifications</a>
+            </dd>
+            <dt class="submenu-first">
+                <a href="###"><img src="../img/spot.png" alt="" class="spot"></a>
+                <a href="###">NEWS</a>
+                <img src="../img/submenu-right.png" alt="" class="submenu-arrow">
+            </dt>
+            <dd class="submenu-two">
+                <a href="./news.html" class="submenu-two-a">News</a>
+            </dd>
+            <dt class="submenu-first">
+                <a href="./content.html"><img src="../img/spot.png" alt="" class="spot"></a>
+                <a href="./content.html" class="active-nav-submenu">CONTACT US</a>
+            </dt>
+        </dl>
+    </div>
+</div>
+<div class="top-bg"></div>
+<div class="title-wrapper">
+    <div class="title-border"></div>
+    <div class="title-text">Content Us</div>
+    <div class="long-title-border"></div>
+</div>
+<div class="content">
+    <div class="content-wrapper">
+        <h4>
+            ZHEJIANG CHUANGDI<br>
+            Water Treatment Equipment Inc
+        </h4>
+        <br>
+        <p>
+            Tel:0580-8288222<br>
+            Fax:0580-8288222<br>
+            E-Mail:13957212210@139q.com<br>
+            Add:Dinghai district, zhoushan city, zhejiang province
+        </p>
+        <div class="code"></div>
+    </div>
+    <div id="container"></div>
+    <div class="online-wrapper">
+        <div class="online-title">
+            <img src="../img/outline.png" alt="">
+            <span class="online-title-text">Online Message</span>
+            <div class="online-title-border"></div>
+        </div>
+        <div class="online-form">
+            <form class="form-box" onsubmit="alert('Thank you. The message was successful.')">
+                <table>
+                    <tr class="form-top">
+                        <td class="td-one"><label for="user-Name">name:</label></td>
+                        <td><input type="text" id="user-Name" pattern="^[a-z0-9_-]{3,16}$" required></td>
+                    </tr>
+                    <tr class="form-top">
+                        <td class="td-one"><label for="user-e-mail">e-mail:</label></td>
+                        <td><input type="text" id="user-e-mail" pattern="^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$" required></td>
+                    </tr>
+                    <tr class="form-top">
+                        <td class="td-one"><label for="user-tel">tel:</label></td>
+                       <td><input type="text" id="user-tel" pattern="^(13[0-9]|14[5|7]|15[0|1|2|3|5|6|7|8|9]|18[0|1|2|3|5|6|7|8|9])\d{8}$"></td>
+                    </tr>
+                    <tr class="user-online-wrapper">
+                        <td><label for="user-online" id="user-online-title">content:</label></td>
+                        <td><textarea id="user-online" style="resize:none" required></textarea></td>
+                    </tr>
+                </table>
+
+                <div class="form-btn-box">
+                    <button type="submit" class="submit">submit</button>
+                    <button type="reset" class="reset">reset</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="footer-content">
+        <div class="footer-text">
+            <div class="footer-title">TEL:0508-828822</div>
+            <table>
+                <tr>
+                    <td class="td-name">Fax:</td>
+                    <td>0580-8288222</td>
+                </tr>
+                <tr>
+                    <td class="td-name">E-mail:</td>
+                    <td>139572112210@139q.com</td>
+                </tr>
+                <tr>
+                    <td class="td-name">Add:</td>
+                    <td>Dinghai district, zhoushan city,zhejiang province</td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer-code"><img src="../img/footer-code.jpg" alt=""></div>
+    </div>
+    <div class="powered-by">
+        © COPYRIGHT  ZHEJIANG CHUANGDI  ALL RIGHT RESERVED<br>
+        Powered by:<a target="_blank" href="http://www.2000new.com/ ">Newedge</a>
+    </div>
+</div>
+</body>
+<script>
+    // 地图
+    var map = new BMap.Map("container");
+    var point = new BMap.Point(122.1065347073,30.1225361252);
+    map.centerAndZoom(point,20);
+    map.setCenter(point)
+    var marker = new BMap.Marker(point);
+    map.addOverlay(marker);
+
+    // rem自动计算
+    (function (doc, win) {
+        var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ?     'orientationchange' : 'resize',
+            recalc = function() {
+                var clientWidth = docEl.clientWidth;
+                if(!clientWidth) {
+                    return
+                }
+                docEl.style.fontSize = 100 * (clientWidth / 640) + 'px'; };
+
+        if(!doc.addEventListener) {
+            return
+        }
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    }(document, window))
+
+    // 导航栏效果
+    $(".search").click(function () {
+        $(".search-wrapper").css("display","block")
+        $("body").css('overflow-y', 'hidden')
+        $(".search-fork").click(function () {
+            $(".search-wrapper").css("display","none")
+            $("body").css('overflow-y','auto')
+        })
+    })
+    $(".menu").click(function () {
+        $(".menu-wrapper").css("display","block")
+        $("body").css('overflow-y', 'hidden')
+        $(".menu-fork").click(function () {
+            $(".menu-wrapper").css("display","none")
+            $("body").css('overflow-y','auto')
+        })
+        $(".menu-search").click(function () {
+            $(".menu-wrapper").css("display","none")
+            $(".search-wrapper").css("display","block")
+            $("body").css('overflow-y', 'hidden')
+            $(".search-fork").click(function () {
+                $(".search-wrapper").css("display","none")
+                $("body").css('overflow-y','auto')
+            })
+        })
+    })
+    $(".submenu-first").click(function () {
+        if ($(this).next(".submenu-two").css("display") == "none"){
+            $(".submenu-first").children(".submenu-arrow").removeClass("submenu-arrow-active").parent(".submenu-first").next(".submenu-two").slideUp()
+            $(this).children(".submenu-arrow").addClass("submenu-arrow-active").parent(".submenu-first").next(".submenu-two").slideDown()
+        }
+        else {
+            $(this).children(".submenu-arrow").removeClass("submenu-arrow-active").parent(".submenu-first").next(".submenu-two").slideUp()
+        }
+    })
+
+</script>
+</html>
